@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* fuente inicia */
+@font-face {
+    font-family: Plexus;
+    src: url(../Fonts/M.F.\ Plexus\ Italic.ttf);
+}
+
+/* fuente termina */
+body {
+    background-color: lightgray;
+}
+
+/*------ barra de nav----- */
+.navbar {
+    background-color: rgba(192, 192, 192, 0.598);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+}
+
+.collapse {
+    display: flex;
+    justify-content: right;
+
+}
+
+.collapse :hover {
+    color: #1E90FF !important;
+}
+
+/* ------barra de nav----- */
+
+.nav-link {
+    color: black !important;
+    /* font-size: 20px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+
+}
+
+/*  logo */
+.navbar-brand {
+    color: #1E90FF !important;
+    font-family: plexus;
+    text-shadow: 0 0 5px whitesmoke;
+    font-size: 30px;
+}
+
+/* logo */
+/*------- logo span------ */
+.navbar-brand span {
+    color: darkorange;
+}
+
+/* -------logo span------ */
+
+.jumbotron {
+    background-image: url(../Imagenes/paginaprincipal.webp);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+
+/* -------------------------------INICIO DE GALERIA------------------------ */
+
+h2 {
+    background-color: black;
+    margin-top: 120px;
+    text-align: center;
+    color: #1E90FF;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    padding: 10px;
+    background-color: #1E90FF;
+    grid-gap: 10px;
+}
+
+.item {
+    border: 2px solid black;
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --------------------------------INICIO MEDIA QUERIES ----------------- */
+
+.item1 {
+    background-image: url(/Imagenes/carcegliasalta.jpeg);
+}
+
+.item2 {
+    background-image: url(/Imagenes/foto5.jpg);
+}
+
+.item3 {
+    background-image: url(/Imagenes/foto4.jpg);
+}
+
+.item4 {
+    background-image: url(/Imagenes/galeria5.jpg);
+}
+
+.item5 {
+    background-image: url(/Imagenes/galeria6.jpg);
+}
+
+.item6 {
+    background-image: url(/Imagenes/galeria1.jpg);
+}
+
+.item7 {
+    background-image: url(/Imagenes/galeria3.jpg);
+}
+
+.item8 {
+    background-image: url(/Imagenes/carcegliateam.png);
+}
+
+@media only screen and (min-width:480px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+
+    .brazilian-jiujitsu {
+        display: flex
+    }
+
+    .nleft1,
+    .nright1 {
+        width: 50%;
+    }
+
+    .grappling {
+        display: flex;
+    }
+
+    .nleft2,
+    .nright2 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .item1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .item6 {
+        grid-column: 1/2;
+        grid-row: 3/5;
+    }
+
+    .item4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .item7 {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+
+    .item8 {
+        grid-column: 3/4;
+        grid-row: 3/5;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px;
+    }
+}
+
+/* -------------------------------FIN DE GALERIA------------------------ */
+/* -----------------------------INICIO DE FOOTER------------------------ */
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    color: #1E90FF;
+}
+
+p a {
+    color: #1E90FF;
+}
+
+.parrafo2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: darkorange;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-size: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 4px darkorange;
+}
+
+.redes a {
+    color: #1E90FF;
+    text-decoration: none;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.texto {
+    font-weight: 300;
+}
+
+/* -----------------------------FIN DE FOOTER----------------------------- */
+
+.contenedor {
+    background-color: lightgray;
+}
+
+.nleft1 {
+    height: 250px;
+    background-color: gray;
+    background-image: url(/Imagenes/luchaconkimono.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nright1 {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nright2 {
+    height: 250px;
+    background-color: gray;
+    background-image: url(/Imagenes/luchadegrappling.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.nleft2 {
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* ----------------------INICIO DE EVENTOS------------------- */
+.contenedor-even {
+    margin-top: 40px;
+}
+
+.even {
+    background-color: #1E90FF;
+    height: 300px;
+    width: 200px;
+    border: 3px solid white;
+}
+
+.even1 {
+    background-image: url(/Imagenes/opencentenario.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.even2 {
+    background-image: url(/Imagenes/opencordoacapital.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.even3 {
+    background-image: url(/Imagenes/opencorrientes.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.even4 {
+    background-image: url(/Imagenes/openjujuy.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.even5 {
+    background-image: url(/Imagenes/openjujuy.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.even6 {
+    background-image: url(/Imagenes/openrosario.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor-even {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ----------------------FIN DE EVENTOS----------------------- */
+
+/* --------------------COMIENZO DE NOSOTROS-------------------- */
+
+.fondo-formulario {
+    background-image: url(/Imagenes/fondodepagina.jpg);
+    width: 100%;
+    
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, alpha0.4);
+    padding: 20px;
+    border: 3px solid white;
+    margin-top: 80px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input,textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background-color: gray;
+    padding: 5px;
+}
+
+@media (max-width: 480px){
+    form{
+    width: 100%;
+    }
+}
+/* --------------------FIN DE NOSOTROS-------------------------- */
+
+/* --------------------COMIENZO DE INDUMENTARIA---------------- */
+.indumentaria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    background-color: darkorange;
+    padding: 10px;
+    grid-gap: 10px;
+    margin-top: 70px;
+}
+
+.indu{
+    border: 5px solid black;
+    background-color: #1E90FF;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    transition: all 0.9s;
+}
+
+.indu:hover{
+    filter: grayscale(0%);
+    transform: scale(1.09);
+}
+
+.indu1{
+    background-image: url(/Imagenes/carrusel1.webp);
+}
+
+.indu2{
+    background-image: url(/Imagenes/carrusel2.jpg);
+}
+
+.indu3{
+    background-image: url(/Imagenes/carrusel3.jpg);
+}
+
+.indu4{
+    background-image: url(/Imagenes/carrusel4.webp);
+}
+
+.indu5{
+    background-image: url(/Imagenes/carrusel5.jpg);
+}
+
+.indu6{
+    background-image: url(/Imagenes/carrusel6.jpg);
+}
+
+.indu7{
+    background-image: url(/Imagenes/carrusel7.webp);
+}
+
+.indu8{
+    background-image: url(/Imagenes/carrusel8.jpg);
+}
+
+@media only screen and (min-width:480px) {
+    .indumentaria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .indumentaria {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .indu1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .indu6 {
+        grid-column: 1/2;
+        grid-row: 3/5;
+    }
+
+    .indu4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .indu7 {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+
+    .indu8 {
+        grid-column: 3/4;
+        grid-row: 3/5;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .indumentaria {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px;
+    }
+}
+
+/* --------------------FIN DE INDUMENTARIA----------------------- */
