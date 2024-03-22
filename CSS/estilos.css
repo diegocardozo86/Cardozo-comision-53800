@@ -106,35 +106,35 @@ h2 {
 /* --------------------------------INICIO MEDIA QUERIES ----------------- */
 
 .item1 {
-    background-image: url(/Imagenes/carcegliasalta.jpeg);
+    background-image: url(../Imagenes/carcegliasalta.jpeg);
 }
 
 .item2 {
-    background-image: url(/Imagenes/foto5.jpg);
+    background-image: url(../Imagenes/foto5.jpg);
 }
 
 .item3 {
-    background-image: url(/Imagenes/foto4.jpg);
+    background-image: url(../Imagenes/foto4.jpg);
 }
 
 .item4 {
-    background-image: url(/Imagenes/galeria5.jpg);
+    background-image: url(../Imagenes/galeria5.jpg);
 }
 
 .item5 {
-    background-image: url(/Imagenes/galeria6.jpg);
+    background-image: url(../Imagenes/galeria6.jpg);
 }
 
 .item6 {
-    background-image: url(/Imagenes/galeria1.jpg);
+    background-image: url(../Imagenes/galeria1.jpg);
 }
 
 .item7 {
-    background-image: url(/Imagenes/galeria3.jpg);
+    background-image: url(../Imagenes/galeria3.jpg);
 }
 
 .item8 {
-    background-image: url(/Imagenes/carcegliateam.png);
+    background-image: url(../Imagenes/carcegliateam.png);
 }
 
 @media only screen and (min-width:480px) {
@@ -255,7 +255,7 @@ p a {
 .nleft1 {
     height: 250px;
     background-color: gray;
-    background-image: url(/Imagenes/luchaconkimono.jpg);
+    background-image: url(../Imagenes/luchaconkimono.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -268,7 +268,7 @@ p a {
 .nright2 {
     height: 250px;
     background-color: gray;
-    background-image: url(/Imagenes/luchadegrappling.jpeg);
+    background-image: url(../Imagenes/luchadegrappling.jpeg);
     background-position: center;
     background-size: cover;
     margin-bottom: 20px;
@@ -292,37 +292,37 @@ p a {
 }
 
 .even1 {
-    background-image: url(/Imagenes/opencentenario.webp);
+    background-image: url(../Imagenes/opencentenario.webp);
     background-size: cover;
     background-position: center;
 }
 
 .even2 {
-    background-image: url(/Imagenes/opencordoacapital.jpg);
+    background-image: url(../Imagenes/opencordoacapital.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .even3 {
-    background-image: url(/Imagenes/opencorrientes.webp);
+    background-image: url(../Imagenes/opencorrientes.webp);
     background-size: cover;
     background-position: center;
 }
 
 .even4 {
-    background-image: url(/Imagenes/openjujuy.webp);
+    background-image: url(../Imagenes/openjujuy.webp);
     background-size: cover;
     background-position: center;
 }
 
 .even5 {
-    background-image: url(/Imagenes/openjujuy.webp);
+    background-image: url(../Imagenes/openjujuy.webp);
     background-size: cover;
     background-position: center;
 }
 
 .even6 {
-    background-image: url(/Imagenes/openrosario.jpg);
+    background-image: url(../Imagenes/openrosario.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -339,7 +339,7 @@ p a {
 /* --------------------COMIENZO DE NOSOTROS-------------------- */
 
 .fondo-formulario {
-    background-image: url(/Imagenes/fondodepagina.jpg);
+    background-image: url(../Imagenes/fondodepagina.jpg);
     width: 100%;
     
 }
@@ -412,35 +412,35 @@ textarea{
 }
 
 .indu1{
-    background-image: url(/Imagenes/carrusel1.webp);
+    background-image: url(../Imagenes/carrusel1.webp);
 }
 
 .indu2{
-    background-image: url(/Imagenes/carrusel2.jpg);
+    background-image: url(../Imagenes/carrusel2.jpg);
 }
 
 .indu3{
-    background-image: url(/Imagenes/carrusel3.jpg);
+    background-image: url(../Imagenes/carrusel3.jpg);
 }
 
 .indu4{
-    background-image: url(/Imagenes/carrusel4.webp);
+    background-image: url(../Imagenes/carrusel4.webp);
 }
 
 .indu5{
-    background-image: url(/Imagenes/carrusel5.jpg);
+    background-image: url(../Imagenes/carrusel5.jpg);
 }
 
 .indu6{
-    background-image: url(/Imagenes/carrusel6.jpg);
+    background-image: url(../Imagenes/carrusel6.jpg);
 }
 
 .indu7{
-    background-image: url(/Imagenes/carrusel7.webp);
+    background-image: url(../Imagenes/carrusel7.webp);
 }
 
 .indu8{
-    background-image: url(/Imagenes/carrusel8.jpg);
+    background-image: url(../Imagenes/carrusel8.jpg);
 }
 
 @media only screen and (min-width:480px) {
