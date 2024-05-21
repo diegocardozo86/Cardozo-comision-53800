@@ -70,7 +70,7 @@ body {
 /* -------logo span------ */
 
 .jumbotron {
-    background-image: url(./Imagenes/paginaprincipal.webp);
+    background-image: url(../Imagenes/paginaprincipal.webp);
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -255,7 +255,7 @@ p a {
 .nleft1 {
     height: 250px;
     background-color: gray;
-    background-image: url(./Imagenes/luchaconkimono.jpg);
+    background-image: url(../Imagenes/luchaconkimono.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -268,7 +268,7 @@ p a {
 .nright2 {
     height: 250px;
     background-color: gray;
-    background-image: url(./Imagenes/luchadegrappling.jpeg);
+    background-image: url(../Imagenes/luchadegrappling.jpeg);
     background-position: center;
     background-size: cover;
     margin-bottom: 20px;
